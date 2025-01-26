@@ -1,0 +1,347 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\playwright.config.ts",
+    "rootDir": "C:/Users/armal/OneDrive/Desktop/lambdatest",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/armal/OneDrive/Desktop/lambdatest/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "chrome:latest:MacOS Catalina@lambdatest",
+        "name": "chrome:latest:MacOS Catalina@lambdatest",
+        "testDir": "C:/Users/armal/OneDrive/Desktop/lambdatest",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/login.test.ts"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Users/armal/OneDrive/Desktop/lambdatest/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "MicrosoftEdge:latest:Windows 10@lambdatest",
+        "name": "MicrosoftEdge:latest:Windows 10@lambdatest",
+        "testDir": "C:/Users/armal/OneDrive/Desktop/lambdatest",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/login.test.ts"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.49.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\login.test.ts",
+      "file": "tests/login.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Assignment",
+          "file": "tests/login.test.ts",
+          "line": 20,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test scenario 1",
+              "ok": true,
+              "tags": [
+                "lambdatest"
+              ],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome:latest:MacOS Catalina@lambdatest",
+                  "projectName": "chrome:latest:MacOS Catalina@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 16318,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TITLE: Test scenario 1\n"
+                        },
+                        {
+                          "text": "STATUS: passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-26T21:24:55.913Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-1-chrome-latest-MacOS-Catalina-lambdatest\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "MicrosoftEdge:latest:Windows 10@lambdatest",
+                  "projectName": "MicrosoftEdge:latest:Windows 10@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 16431,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TITLE: Test scenario 1\n"
+                        },
+                        {
+                          "text": "STATUS: passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-26T21:24:55.925Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-1-MicrosoftEdge-latest-Windows-10-lambdatest\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ef85df6096d4739f2c52-5717fa4a6b2785273081",
+              "file": "tests/login.test.ts",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "Test scenario 2",
+              "ok": true,
+              "tags": [
+                "lambdatest"
+              ],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome:latest:MacOS Catalina@lambdatest",
+                  "projectName": "chrome:latest:MacOS Catalina@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 26008,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TITLE: Test scenario 2\n"
+                        },
+                        {
+                          "text": "STATUS: passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-26T21:25:12.270Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-2-chrome-latest-MacOS-Catalina-lambdatest\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "MicrosoftEdge:latest:Windows 10@lambdatest",
+                  "projectName": "MicrosoftEdge:latest:Windows 10@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 35333,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TITLE: Test scenario 2\n"
+                        },
+                        {
+                          "text": "STATUS: passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-26T21:25:12.393Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-2-MicrosoftEdge-latest-Windows-10-lambdatest\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ef85df6096d4739f2c52-2e68753fe79bcefc3fc4",
+              "file": "tests/login.test.ts",
+              "line": 49,
+              "column": 9
+            },
+            {
+              "title": "Test scenario 3",
+              "ok": true,
+              "tags": [
+                "lambdatest"
+              ],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome:latest:MacOS Catalina@lambdatest",
+                  "projectName": "chrome:latest:MacOS Catalina@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 11986,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TITLE: Test scenario 3\n"
+                        },
+                        {
+                          "text": "STATUS: passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-26T21:25:38.294Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-3-chrome-latest-MacOS-Catalina-lambdatest\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "MicrosoftEdge:latest:Windows 10@lambdatest",
+                  "projectName": "MicrosoftEdge:latest:Windows 10@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 23936,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TITLE: Test scenario 3\n"
+                        },
+                        {
+                          "text": "STATUS: passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-26T21:25:47.743Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-3-MicrosoftEdge-latest-Windows-10-lambdatest\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ef85df6096d4739f2c52-c17b4b28a68e434f350d",
+              "file": "tests/login.test.ts",
+              "line": 78,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-01-26T21:24:54.589Z",
+    "duration": 77151.94,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
