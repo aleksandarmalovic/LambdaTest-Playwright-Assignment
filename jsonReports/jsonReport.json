@@ -48,7 +48,7 @@
         "testDir": "C:/Users/armal/OneDrive/Desktop/lambdatest",
         "testIgnore": [],
         "testMatch": [
-          "tests/login.test.ts"
+          "tests/assignment.test.ts"
         ],
         "timeout": 300000
       },
@@ -62,7 +62,7 @@
         "testDir": "C:/Users/armal/OneDrive/Desktop/lambdatest",
         "testIgnore": [],
         "testMatch": [
-          "tests/login.test.ts"
+          "tests/assignment.test.ts"
         ],
         "timeout": 300000
       }
@@ -75,15 +75,15 @@
   },
   "suites": [
     {
-      "title": "tests\\login.test.ts",
-      "file": "tests/login.test.ts",
+      "title": "tests\\assignment.test.ts",
+      "file": "tests/assignment.test.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Assignment",
-          "file": "tests/login.test.ts",
+          "file": "tests/assignment.test.ts",
           "line": 20,
           "column": 6,
           "specs": [
@@ -104,7 +104,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 16318,
+                      "duration": 11568,
                       "errors": [],
                       "stdout": [
                         {
@@ -116,12 +116,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-26T21:24:55.913Z",
+                      "startTime": "2025-01-28T13:48:01.710Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-1-chrome-latest-MacOS-Catalina-lambdatest\\test-finished-1.png"
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-assignment-Assignment-Test-scenario-1-chrome-latest-MacOS-Catalina-lambdatest\\test-finished-1.png"
                         }
                       ]
                     }
@@ -138,7 +138,7 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 16431,
+                      "duration": 16956,
                       "errors": [],
                       "stdout": [
                         {
@@ -150,12 +150,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-26T21:24:55.925Z",
+                      "startTime": "2025-01-28T13:48:01.726Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-1-MicrosoftEdge-latest-Windows-10-lambdatest\\test-finished-1.png"
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-assignment-Assignment-Test-scenario-1-MicrosoftEdge-latest-Windows-10-lambdatest\\test-finished-1.png"
                         }
                       ]
                     }
@@ -163,8 +163,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "ef85df6096d4739f2c52-5717fa4a6b2785273081",
-              "file": "tests/login.test.ts",
+              "id": "d7c478f581c97e14d76d-aa9eab61894ad613ef5d",
+              "file": "tests/assignment.test.ts",
               "line": 23,
               "column": 9
             },
@@ -185,7 +185,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 26008,
+                      "duration": 23711,
                       "errors": [],
                       "stdout": [
                         {
@@ -197,12 +197,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-26T21:25:12.270Z",
+                      "startTime": "2025-01-28T13:48:13.301Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-2-chrome-latest-MacOS-Catalina-lambdatest\\test-finished-1.png"
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-assignment-Assignment-Test-scenario-2-chrome-latest-MacOS-Catalina-lambdatest\\test-finished-1.png"
                         }
                       ]
                     }
@@ -219,7 +219,7 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 35333,
+                      "duration": 31136,
                       "errors": [],
                       "stdout": [
                         {
@@ -231,12 +231,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-26T21:25:12.393Z",
+                      "startTime": "2025-01-28T13:48:18.717Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-2-MicrosoftEdge-latest-Windows-10-lambdatest\\test-finished-1.png"
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-assignment-Assignment-Test-scenario-2-MicrosoftEdge-latest-Windows-10-lambdatest\\test-finished-1.png"
                         }
                       ]
                     }
@@ -244,8 +244,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "ef85df6096d4739f2c52-2e68753fe79bcefc3fc4",
-              "file": "tests/login.test.ts",
+              "id": "d7c478f581c97e14d76d-871c6cd581452cf57f89",
+              "file": "tests/assignment.test.ts",
               "line": 49,
               "column": 9
             },
@@ -266,7 +266,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 11986,
+                      "duration": 12699,
                       "errors": [],
                       "stdout": [
                         {
@@ -278,12 +278,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-26T21:25:38.294Z",
+                      "startTime": "2025-01-28T13:48:37.021Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-3-chrome-latest-MacOS-Catalina-lambdatest\\test-finished-1.png"
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-assignment-Assignment-Test-scenario-3-chrome-latest-MacOS-Catalina-lambdatest\\test-finished-1.png"
                         }
                       ]
                     }
@@ -300,7 +300,7 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 23936,
+                      "duration": 18112,
                       "errors": [],
                       "stdout": [
                         {
@@ -312,12 +312,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-26T21:25:47.743Z",
+                      "startTime": "2025-01-28T13:48:49.860Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-login-Assignment-Test-scenario-3-MicrosoftEdge-latest-Windows-10-lambdatest\\test-finished-1.png"
+                          "path": "C:\\Users\\armal\\OneDrive\\Desktop\\lambdatest\\test-results\\tests-assignment-Assignment-Test-scenario-3-MicrosoftEdge-latest-Windows-10-lambdatest\\test-finished-1.png"
                         }
                       ]
                     }
@@ -325,8 +325,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "ef85df6096d4739f2c52-c17b4b28a68e434f350d",
-              "file": "tests/login.test.ts",
+              "id": "d7c478f581c97e14d76d-5936e9065b08f6a46416",
+              "file": "tests/assignment.test.ts",
               "line": 78,
               "column": 9
             }
@@ -337,8 +337,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-01-26T21:24:54.589Z",
-    "duration": 77151.94,
+    "startTime": "2025-01-28T13:48:00.713Z",
+    "duration": 67273.33799999999,
     "expected": 6,
     "skipped": 0,
     "unexpected": 0,

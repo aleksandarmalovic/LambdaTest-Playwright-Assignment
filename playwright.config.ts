@@ -7,8 +7,8 @@ const capabilities = {
         platform: "Windows 10",
         build: "Playwright Test from config",
         name: "Playwright Test - 1",
-        user: 'aleksavic87',
-        accessKey: 'k7gBmsXX67vrVLq0JRbMl7akfQXJdJ13ORRieHLVgODq4BhO6R',
+        user: 'malovicyahoo',
+        accessKey: 'I6Xe1EFGkROTl6eR9wD1tFO1UcOaQIcOHbQTppaMIVKiFL1tNk',
         network: true,
         video: true,
         console: true
@@ -43,7 +43,7 @@ const config: PlaywrightTestConfig = {
         // }
     ],
 
-    testMatch: ["tests/login.test.ts"],
+    testMatch: ["tests/assignment.test.ts"],
     use: {
          connectOptions: {
              wsEndpoint: `wss://cdp.lambdatest.com/playwright?capabilities=

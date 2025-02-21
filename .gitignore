@@ -3,7 +3,3 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-config.env
-process.env
-jsonReports/
-/jsonReports/
